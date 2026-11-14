@@ -24,7 +24,7 @@ public class SurvivalHud extends HudModule {
         int light = 15;
         String dir = "South";
         if (!preview && mc.level != null && mc.player != null) {
-            dayTime = mc.level.getDayTime();
+            dayTime = mc.level.getGameTime();
             light = mc.level.getMaxLocalRawBrightness(mc.player.blockPosition());
             String n = mc.player.getDirection().getName();
             dir = n.substring(0, 1).toUpperCase(Locale.ROOT) + n.substring(1);
