@@ -26,3 +26,4 @@ Still not done: textured skyboxes (stars/clouds), glass panels for inventory/con
 Send me the build log errors and I'll fix them.
 - Mixin target names: Screen.extractBackground/extractTransparentBackground, LogoRenderer, LoadingOverlay.extractRenderState, PlayerTabOverlay.getNameForDisplay, Player.getDisplayName, ClientLevel.getSkyColor
 - Title screen: RealmsMainScreen import path, OptionsScreen constructor
+a
