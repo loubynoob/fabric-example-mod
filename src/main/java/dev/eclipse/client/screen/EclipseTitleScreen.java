@@ -28,7 +28,7 @@ public class EclipseTitleScreen extends TitleScreen {
                 b -> minecraft.setScreen(new RealmsMainScreen(this))).bounds(cx - bw / 2, y + 52, bw, bh).build());
         int by = height - 52;
         addRenderableWidget(Button.builder(Component.translatable("menu.options"),
-                b -> minecraft.setScreen(new OptionsScreen(this, minecraft.options))).bounds(cx - 101, by, 100, 20).build());
+                b -> minecraft.setScreen(new OptionsScreen(this, minecraft.options, true))).bounds(cx - 101, by, 100, 20).build());
         addRenderableWidget(Button.builder(Component.literal("Eclipse UI / HUD"),
                 b -> minecraft.setScreen(new HudEditorScreen(this))).bounds(cx + 1, by, 100, 20).build());
         addRenderableWidget(Button.builder(Component.translatable("menu.quit"),
